@@ -1387,7 +1387,7 @@ spec:
         - https://$(KUBERNETES_SERVICE_HOST)
         - -pk
         env: []
-        image: docker.io/falcosecurity/falco:0.15.3
+        image: docker.io/falcosecurity/falco:0.15.4
         imagePullPolicy: IfNotPresent
         name: falco
         resources:
