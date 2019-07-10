@@ -1387,12 +1387,12 @@ spec:
         - https://$(KUBERNETES_SERVICE_HOST)
         - -pk
         env: []
-        image: docker.io/falcosecurity/falco:0.15.4
+        image: docker.io/falcosecurity/falco:0.15.5
         imagePullPolicy: IfNotPresent
         name: falco
         resources:
           limits:
-            cpu: 200m
+            cpu: 210m
             memory: 1024Mi
           requests:
             cpu: 110m
